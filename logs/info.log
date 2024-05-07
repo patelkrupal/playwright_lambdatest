@@ -1,0 +1,6 @@
+{"level":"info","message":"Test Case Started : @lambdatest Test Scenario 1"}
+{"level":"info","message":"Test Case Started : @lambdatest Test Scenario 2"}
+{"level":"info","message":"Test Case Started : @lambdatest Test Scenario 3"}
+{"level":"info","message":"Test Case Completed : @lambdatest Test Scenario 1 Status : passed"}
+{"level":"info","message":"Test Case Completed : @lambdatest Test Scenario 3 Status : passed"}
+{"level":"info","message":"Test Case Completed : @lambdatest Test Scenario 2 Status : passed"}

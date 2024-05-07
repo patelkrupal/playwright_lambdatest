@@ -1,0 +1,31 @@
+{
+  "name": "playwright-test-typescript",
+  "version": "1.0.0",
+  "description": "Playwright Framework with Typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:singletemp": "npx playwright test Login.test.ts --project=Chrome",
+    "test:lambdatestparallel": "npx playwright test --grep @lambdatest --workers=3 --project=Chrome",
+    "test:parallel": "npx playwright test --grep @Smoke --project=Chrome",
+    "allureReport": "allure serve"
+  },
+  "author": "Krupal Patel",
+  "license": "MIT",
+  "dependencies": {
+    "@playwright/test": "^1.43.1",
+    "@types/adm-zip": "^0.5.5",
+    "@typescript-eslint/eslint-plugin": "^7.0.2",
+    "@typescript-eslint/parser": "^7.0.2",
+    "allure-playwright": "^2.15.1",
+    "eslint": "^8.56.0",
+    "eslint-plugin-import": "^2.29.1",
+    "exceljs": "^4.4.0",
+    "lighthouse": "^12.0.0",
+    "npm": "^10.7.0",
+    "pdfjs-dist-es5": "^2.13.216",
+    "pg": "^8.11.3",
+    "typescript": "^5.3.3",
+    "winston": "^3.11.0"
+  }
+}
