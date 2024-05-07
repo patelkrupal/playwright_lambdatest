@@ -127,7 +127,7 @@ npx playwright install
 2. For execution entire test suite on all available browsers simultaneously execute below command where "ENV" can be "qa" or "dev", `Test Cases are present in "tests" folder`:
 
 ```JS
-npm run test --ENV="qa"
+npm run test:lambdatestparallel --ENV="qa"
 ```
 
 3. For executing single test case on Chrome browser execute the below command, you can change the browser for execution e.g. if you want to run test cases on Firefox, you can change `--project=Firefox` against `test:single` in `package.json`, just make sure the browser name given matches the name given in `playwright.config.ts`.
